@@ -19,7 +19,8 @@ function CalendarScreen() {
         initialView="dayGridMonth"
         dateClick={handleDateClick}
         events={[
-            {title : 'default event', date : '2021-05-05'}
+            {title : 'Report Submission', date : '2021-05-10'},
+            {title : 'Final Project Submission' , date: '2021-05-11'}
         ]}
       />
         {/*<Calendar  />*/}
